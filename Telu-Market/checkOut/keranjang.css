@@ -1,0 +1,70 @@
+body {
+  background-color: #eaeaea;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  color: #2d2d2d;
+}
+
+.style-breadcrumb {
+  margin-top: 80px;
+}
+
+.form-control {
+  width: 350px;
+}
+
+.img-categori {
+  width: 50px;
+}
+
+.img-categori:hover {
+  transform: scale(1.2);
+}
+
+.row-container {
+  background-color: #fff;
+  margin: 0px;
+}
+
+.card:hover {
+  border: 2px solid #2d2d2d;
+}
+
+.row-product {
+  background-color: #fff;
+  margin: 0;
+  padding: 5px;
+  padding-top: 16px;
+}
+
+.img-keranjang {
+  width: 60px;
+}
+
+.total-harga {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px; /* Atur margin sesuai kebutuhan */
+}
+
+.total-harga span {
+  text-align: left;
+  width: 35%; /* Membagi lebar secara setara untuk kedua elemen span */
+}
+
+@media (min-width: 350px) {
+  form,
+  input {
+    padding-top: 15px;
+  }
+
+  #car {
+    padding-top: 40px;
+  }
+
+  #produk .card {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+}
