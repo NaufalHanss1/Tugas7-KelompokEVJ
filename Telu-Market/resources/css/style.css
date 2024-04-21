@@ -1,0 +1,25 @@
+.row-container {
+  background-color: #fff;
+  margin: 0px;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+
+@media (min-width: 350px) {
+  form,
+  input {
+    padding-top: 15px;
+  }
+
+  #car {
+    padding-top: 40px;
+  }
+
+  #produk .card {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+}
