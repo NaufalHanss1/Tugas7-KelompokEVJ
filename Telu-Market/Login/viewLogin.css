@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center;
+    background: url(logo1.png) no-repeat;
+    position: static;
+    background-color: rgb(239, 231, 231);
+    align-items: center;
+}
+
+.container {
+    position: relative; 
+    height: 700px;
+    max-width: 450px;
+    width: 100%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px black;
+}
+
+.container .tempatRegistrasi {
+    display: none;
+}
+
+#check:checked ~ .tempatRegistrasi {
+    display: block;
+}
+
+#check:checked ~ .tempatLogin {
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.container .form {
+    padding: 2rem;
+}
+
+.form h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.form input {
+    height: 60px;
+    width: 100%;
+}
