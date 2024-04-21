@@ -1,10 +1,7 @@
 Kelompok EVJ :
 
-\n
 Muhammad Naufal Zaki Permana 1302210048
-\n
 Muhammad Naufal Fajri Irwandowo 1302213131 
-\n
 Ariel Pabibak Pali' Mallua' 1302210128 
 
 
